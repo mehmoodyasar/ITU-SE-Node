@@ -3,7 +3,7 @@ var http = require('http');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
-  res.write("Hello Node JS");
+  res.write("Hello Node JS<br>");
   res.write("Second Time Hello Node JS");
   //console.log('Server Started!');
   res.end();
